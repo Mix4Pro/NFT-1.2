@@ -81,8 +81,25 @@ header{
 }
 
 /* media 300-600 */
-
+@media screen and (max-width: 299px){
+    .ins-main{
+        width: 100%;
+        padding: 5px;
+    }
+    #mint{
+        margin-bottom: 5%;
+    }
+    #inp-quant{
+        width: 40%;
+    }
+    #connect-message-p{
+        margin-top: 8%;
+    }
+}
 @media screen and (min-width: 300px) and (max-width: 500px){
+    .ins-main{
+        width: 90%;
+    }
     .ins-main h1{
         font-size: 20px;
         margin-bottom: 10%;
@@ -90,6 +107,9 @@ header{
     #mint{
         font-size: 15px;
         margin-bottom: 5%;
+    }
+    #inp-quant{
+        padding: 5px 5px;
     }
     #connect-message-p{
         font-size: 15px;
