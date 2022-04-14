@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ins-main{
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+
+.ins-main h1{
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 40px;
+    letter-spacing: 6px;
+    margin-bottom: 8%;
+}
+
+#mint{
+    font-family: 'Oswald';
+    letter-spacing: 5px;
+    margin-bottom: 4%;
+}
+
+#total-p{
+    font-family: 'Oswald';
+    letter-spacing: 3px;
+    margin-bottom: 2%;
+}
+
+.form-quant-btn{
+    border: none;
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    outline: none;
+}
+
+#inp-quant{
+    text-align: center;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 10px;
+}
+
+#connect-message-p{
+    margin-top: 2%;
+    font-family: 'Oswald';
+    letter-spacing: 3px;
+    margin-bottom: 2%;
+}
+
+#btn-connect-wallet{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+    color: rgb(0, 12, 68);
+}
+
+/* media 300-600 */
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .ins-main h1{
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+    #mint{
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    #connect-message-p{
+        font-size: 15px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
